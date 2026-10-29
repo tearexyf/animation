@@ -38,14 +38,16 @@ body {
 }
 
 .star {
-  position: absolute;
-  bottom: 0;
-  left: 25%;
-  color: white;
-  font-size: 70%;
-  opacity: 0;
   z-index: 2;
   animation: sparkle-chaos 2s linear infinite;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  font-size: 60%;
+  color: white;
+  text-shadow: 0 0 8px white;
+  pointer-events: none;
+  opacity: 0;
 }
 
 .star:nth-of-type(1) {
