@@ -41,7 +41,7 @@ body {
   position: absolute;
   z-index: 2;
   bottom: 0;
-  font-size: 60%;
+  font-size: 50%;
   color: white;
   text-shadow: 0 0 8px white;
   pointer-events: none;
